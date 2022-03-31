@@ -1,0 +1,13 @@
+No.     Source                Destination           Protocol Length Info
+      1 172.16.3.1            172.16.3.5            DNS      71     Standard query 0x0004 A www.cen.net
+      2 08:00:27:9c:1d:8f     ff:ff:ff:ff:ff:ff     ARP      42     Who has 172.16.3.1? Tell 172.16.3.5
+      3 0a:00:27:00:00:0a     08:00:27:9c:1d:8f     ARP      42     172.16.3.1 is at 0a:00:27:00:00:0a
+      4 172.16.3.5            172.16.3.1            DNS      87     Standard query response 0x0004 A www.cen.net A 172.16.3.27
+      5 0a:00:27:00:00:0a     08:00:27:9c:1d:8f     ARP      42     Who has 172.16.3.5? Tell 172.16.3.1
+      6 08:00:27:9c:1d:8f     0a:00:27:00:00:0a     ARP      42     172.16.3.5 is at 08:00:27:9c:1d:8f
+      7 172.16.3.1            172.16.3.5            DNS      84     Standard query 0x0005 PTR 27.3.16.172.in-addr.arpa
+      8 172.16.3.5            172.16.3.1            DNS      109    Standard query response 0x0005 PTR 27.3.16.172.in-addr.arpa PTR www.cen.net
+      9 08:00:27:9c:1d:8f     0a:00:27:00:00:0a     ARP      42     Who has 172.16.3.1? Tell 172.16.3.5
+     10 0a:00:27:00:00:0a     08:00:27:9c:1d:8f     ARP      42     172.16.3.1 is at 0a:00:27:00:00:0a
+     11 0a:00:27:00:00:0a     08:00:27:9c:1d:8f     ARP      42     Who has 172.16.3.5? Tell 172.16.3.1
+     12 08:00:27:9c:1d:8f     0a:00:27:00:00:0a     ARP      42     172.16.3.5 is at 08:00:27:9c:1d:8f
